@@ -1,0 +1,13 @@
+all:
+  home:
+    192.168.179.143
+    192.168.179.189
+    192.168.179.190
+  remote:
+    ament-teusink.eu
+  debian:
+    192.168.179.189
+    ament-teusink.eu
+  opensuse:
+    192.168.179.143
+    192.168.179.190
