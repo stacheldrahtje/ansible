@@ -4,5 +4,8 @@ tasks:
 - name: set base vars
   local_action: 
     module: stat 
+    checksum_algorithm: sha256
     path: /usr/lib/systemd/system/telegraf.service
-   
+    get_checksum: yes
+    register: local_check
+
